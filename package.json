@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss css/tailwind.css -o public/css/styles.css"
+    "build": "postcss css/tailwind.css -o public/css/styles.css",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.8.5",
+    "gh-pages": "^3.1.0",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
   }
